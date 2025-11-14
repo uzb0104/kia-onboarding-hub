@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Home",
+    "employees": "Employees",
+    "departments": "Departments",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "home": {
+    "title": "KIA Employee Management System",
+    "subtitle": "Efficiently manage and track new employees",
+    "welcome": "Welcome",
+    "getStarted": "Get Started",
+    "features": {
+      "title": "Key Features",
+      "management": {
+        "title": "Employee Management",
+        "description": "Add, edit, and track new employees"
+      },
+      "tracking": {
+        "title": "Probation Period Tracking",
+        "description": "Detailed tracking of 3-month probation period"
+      },
+      "attendance": {
+        "title": "Attendance System",
+        "description": "Track employee entry and exit times"
+      },
+      "departments": {
+        "title": "Department Management",
+        "description": "Manage main and sub-departments"
+      }
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signInButton": "Sign In",
+    "signUpButton": "Sign Up"
+  },
+  "employee": {
+    "title": "Employees",
+    "add": "Add New Employee",
+    "edit": "Edit",
+    "delete": "Delete",
+    "details": "Details",
+    "name": "Name",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "otherName": "Middle Name",
+    "birthDate": "Birth Date",
+    "phone": "Phone Number",
+    "address": "Address",
+    "role": "Position",
+    "status": "Status",
+    "experience": "Experience (years)",
+    "degree": "Degree",
+    "description": "Description",
+    "skills": "Skills",
+    "profilePicture": "Profile Picture",
+    "department": "Department",
+    "section": "Section",
+    "joinDate": "Join Date",
+    "probationEnd": "Probation End",
+    "statuses": {
+      "new": "New",
+      "training": "Training",
+      "progressing": "Progressing",
+      "competent": "Competent",
+      "excellent": "Excellent"
+    }
+  },
+  "attendance": {
+    "title": "Attendance",
+    "checkIn": "Check In",
+    "checkOut": "Check Out",
+    "workingDays": "Working Days",
+    "absentDays": "Absent Days",
+    "entries": "Entries",
+    "time": "Time",
+    "date": "Date"
+  },
+  "department": {
+    "title": "Departments",
+    "main": "Main Department",
+    "section": "Sub-Department",
+    "heavy": "Heavy Vehicles",
+    "sedan": "Sedan Vehicles",
+    "add": "Add Department",
+    "edit": "Edit"
+  },
+  "common": {
+    "search": "Search",
+    "filter": "Filter",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Confirm",
+    "language": "Language",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  }
+}
