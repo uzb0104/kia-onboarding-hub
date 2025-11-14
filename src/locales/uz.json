@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "employees": "Xodimlar",
+    "departments": "Bo'limlar",
+    "login": "Kirish",
+    "logout": "Chiqish"
+  },
+  "home": {
+    "title": "KIA Xodimlarni Boshqarish Tizimi",
+    "subtitle": "Yangi xodimlarni samarali boshqarish va kuzatish",
+    "welcome": "Xush kelibsiz",
+    "getStarted": "Boshlash",
+    "features": {
+      "title": "Asosiy Imkoniyatlar",
+      "management": {
+        "title": "Xodimlarni Boshqarish",
+        "description": "Yangi xodimlarni qo'shish, tahrirlash va kuzatish"
+      },
+      "tracking": {
+        "title": "Sinov Muddati Kuzatuvi",
+        "description": "3 oylik sinov muddatini batafsil kuzatish"
+      },
+      "attendance": {
+        "title": "Davomat Tizimi",
+        "description": "Xodimlarning kirish va chiqish vaqtlarini kuzatish"
+      },
+      "departments": {
+        "title": "Bo'limlar Boshqaruvi",
+        "description": "Asosiy va kichik bo'limlarni boshqarish"
+      }
+    }
+  },
+  "auth": {
+    "login": "Tizimga kirish",
+    "signup": "Ro'yxatdan o'tish",
+    "email": "Elektron pochta",
+    "password": "Parol",
+    "confirmPassword": "Parolni tasdiqlash",
+    "forgotPassword": "Parolni unutdingizmi?",
+    "noAccount": "Hisobingiz yo'qmi?",
+    "hasAccount": "Hisobingiz bormi?",
+    "signInButton": "Kirish",
+    "signUpButton": "Ro'yxatdan o'tish"
+  },
+  "employee": {
+    "title": "Xodimlar",
+    "add": "Yangi xodim qo'shish",
+    "edit": "Tahrirlash",
+    "delete": "O'chirish",
+    "details": "Tafsilotlar",
+    "name": "Ism",
+    "firstName": "Ism",
+    "lastName": "Familiya",
+    "otherName": "Otasining ismi",
+    "birthDate": "Tug'ilgan sana",
+    "phone": "Telefon raqami",
+    "address": "Manzil",
+    "role": "Lavozim",
+    "status": "Status",
+    "experience": "Tajriba (yil)",
+    "degree": "Ma'lumot",
+    "description": "Ta'rif",
+    "skills": "Ko'nikmalar",
+    "profilePicture": "Profil rasmi",
+    "department": "Bo'lim",
+    "section": "Seksiya",
+    "joinDate": "Qo'shilgan sana",
+    "probationEnd": "Sinov muddati tugashi",
+    "statuses": {
+      "new": "Yangi",
+      "training": "O'rganmoqda",
+      "progressing": "Rivojlanmoqda",
+      "competent": "Malakali",
+      "excellent": "A'lo"
+    }
+  },
+  "attendance": {
+    "title": "Davomat",
+    "checkIn": "Kirish",
+    "checkOut": "Chiqish",
+    "workingDays": "Ish kunlari",
+    "absentDays": "Kelmagan kunlar",
+    "entries": "Kirishlar",
+    "time": "Vaqt",
+    "date": "Sana"
+  },
+  "department": {
+    "title": "Bo'limlar",
+    "main": "Asosiy bo'lim",
+    "section": "Kichik bo'lim",
+    "heavy": "Og'ir avtomobillar",
+    "sedan": "Sedan avtomobillar",
+    "add": "Bo'lim qo'shish",
+    "edit": "Tahrirlash"
+  },
+  "common": {
+    "search": "Qidirish",
+    "filter": "Filter",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "back": "Orqaga",
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik",
+    "success": "Muvaffaqiyatli",
+    "confirm": "Tasdiqlash",
+    "language": "Til",
+    "darkMode": "Tungi rejim",
+    "lightMode": "Kunduzgi rejim"
+  }
+}
