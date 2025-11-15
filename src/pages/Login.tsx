@@ -94,7 +94,12 @@ const Login = () => {
           >
             <div className="text-center mb-8">
               <div className="inline-flex items-center justify-center mb-4">
-                <img src={admGlobalLogo} alt="ADM Global" className="h-16" />
+                <img 
+                  src={admGlobalLogo} 
+                  alt="ADM Global" 
+                  className="h-16"
+                  style={{ mixBlendMode: 'multiply' }}
+                />
               </div>
               <h1 className="text-3xl font-bold mb-2">
                 {isLogin ? t('auth.login') : t('auth.signup')}

@@ -17,6 +17,7 @@ export const Navbar = () => {
               src={admGlobalLogo} 
               alt="ADM Global" 
               className="h-10 transition-transform group-hover:scale-105"
+              style={{ mixBlendMode: 'multiply' }}
             />
           </Link>
 
