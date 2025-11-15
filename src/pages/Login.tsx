@@ -7,9 +7,10 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Navbar } from '@/components/Navbar';
-import { Car, Mail, Lock } from 'lucide-react';
+import { Mail, Lock } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
 import { useToast } from '@/hooks/use-toast';
+import admGlobalLogo from '@/assets/adm-global-logo.png';
 
 const Login = () => {
   const { t } = useTranslation();
@@ -92,8 +93,8 @@ const Login = () => {
             transition={{ duration: 0.5 }}
           >
             <div className="text-center mb-8">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-primary rounded-2xl mb-4 shadow-glow">
-                <Car className="h-8 w-8 text-primary-foreground" />
+              <div className="inline-flex items-center justify-center mb-4">
+                <img src={admGlobalLogo} alt="ADM Global" className="h-16" />
               </div>
               <h1 className="text-3xl font-bold mb-2">
                 {isLogin ? t('auth.login') : t('auth.signup')}
