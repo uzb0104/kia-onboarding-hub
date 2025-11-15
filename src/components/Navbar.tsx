@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { ThemeToggle } from './ThemeToggle';
 import { Button } from './ui/button';
-import { Car } from 'lucide-react';
+import admGlobalLogo from '@/assets/adm-global-logo.png';
 
 export const Navbar = () => {
   const { t } = useTranslation();
@@ -12,13 +12,12 @@ export const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="bg-primary p-2 rounded-lg transition-transform group-hover:scale-110">
-              <Car className="h-6 w-6 text-primary-foreground" />
-            </div>
-            <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              KIA EMS
-            </span>
+          <Link to="/" className="flex items-center group">
+            <img 
+              src={admGlobalLogo} 
+              alt="ADM Global" 
+              className="h-10 transition-transform group-hover:scale-105"
+            />
           </Link>
 
           <div className="flex items-center space-x-2">
