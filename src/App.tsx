@@ -10,6 +10,7 @@ import Index from "./pages/Index";
 import Login from "./pages/Login";
 import Employees from "./pages/Employees";
 import Departments from "./pages/Departments";
+import CreateTestAdmins from "./pages/CreateTestAdmins";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +28,7 @@ const App = () => (
               <Route path="/login" element={<Login />} />
               <Route path="/employees" element={<Employees />} />
               <Route path="/departments" element={<Departments />} />
+              <Route path="/create-test-admins" element={<CreateTestAdmins />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
