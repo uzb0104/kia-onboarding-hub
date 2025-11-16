@@ -14,16 +14,157 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      candidates: {
+        Row: {
+          created_at: string | null
+          current_status: string | null
+          department_id: string | null
+          email: string | null
+          full_name: string
+          id: string
+          phone: string | null
+          position: string | null
+          updated_at: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          current_status?: string | null
+          department_id?: string | null
+          email?: string | null
+          full_name: string
+          id?: string
+          phone?: string | null
+          position?: string | null
+          updated_at?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          current_status?: string | null
+          department_id?: string | null
+          email?: string | null
+          full_name?: string
+          id?: string
+          phone?: string | null
+          position?: string | null
+          updated_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "fk_department"
+            columns: ["department_id"]
+            isOneToOne: false
+            referencedRelation: "departments"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      departments: {
+        Row: {
+          created_at: string | null
+          description: string | null
+          id: string
+          name: string
+          updated_at: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          description?: string | null
+          id?: string
+          name: string
+          updated_at?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          description?: string | null
+          id?: string
+          name?: string
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
+      status_changes: {
+        Row: {
+          approved_at: string | null
+          approved_by: string | null
+          candidate_id: string
+          changed_by: string
+          created_at: string | null
+          id: string
+          is_approved: boolean | null
+          new_status: string
+          old_status: string | null
+          reason: string
+        }
+        Insert: {
+          approved_at?: string | null
+          approved_by?: string | null
+          candidate_id: string
+          changed_by: string
+          created_at?: string | null
+          id?: string
+          is_approved?: boolean | null
+          new_status: string
+          old_status?: string | null
+          reason: string
+        }
+        Update: {
+          approved_at?: string | null
+          approved_by?: string | null
+          candidate_id?: string
+          changed_by?: string
+          created_at?: string | null
+          id?: string
+          is_approved?: boolean | null
+          new_status?: string
+          old_status?: string | null
+          reason?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "status_changes_candidate_id_fkey"
+            columns: ["candidate_id"]
+            isOneToOne: false
+            referencedRelation: "candidates"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      user_roles: {
+        Row: {
+          created_at: string | null
+          id: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Insert: {
+          created_at?: string | null
+          id?: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Update: {
+          created_at?: string | null
+          id?: string
+          role?: Database["public"]["Enums"]["app_role"]
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      has_role: {
+        Args: {
+          _role: Database["public"]["Enums"]["app_role"]
+          _user_id: string
+        }
+        Returns: boolean
+      }
     }
     Enums: {
-      [_ in never]: never
+      app_role: "hr_admin" | "master_admin" | "status_admin"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -150,6 +291,8 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      app_role: ["hr_admin", "master_admin", "status_admin"],
+    },
   },
 } as const
