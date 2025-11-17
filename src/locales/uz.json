@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Bosh sahifa",
+    "dashboard": "Boshqaruv paneli",
     "employees": "Xodimlar",
     "departments": "Bo'limlar",
     "login": "Kirish",
@@ -30,6 +31,19 @@
         "description": "Asosiy va kichik bo'limlarni boshqarish"
       }
     }
+  },
+  "dashboard": {
+    "title": "Boshqaruv paneli",
+    "welcome": "Xush kelibsiz",
+    "totalEmployees": "Jami xodimlar",
+    "newEmployees": "Yangi xodimlar",
+    "onProbation": "Sinov muddatida",
+    "completed": "Yakunlangan",
+    "departments": "Bo'limlar",
+    "recentActivity": "So'nggi faoliyat",
+    "section": "bo'limcha",
+    "new": "Yangi",
+    "pending": "Kutilmoqda"
   },
   "auth": {
     "login": "Tizimga kirish",

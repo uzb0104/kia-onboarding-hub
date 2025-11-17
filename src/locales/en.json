@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Home",
+    "dashboard": "Dashboard",
     "employees": "Employees",
     "departments": "Departments",
     "login": "Login",
@@ -30,6 +31,19 @@
         "description": "Manage main and sub-departments"
       }
     }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "totalEmployees": "Total Employees",
+    "newEmployees": "New Employees",
+    "onProbation": "On Probation",
+    "completed": "Completed",
+    "departments": "Departments",
+    "recentActivity": "Recent Activity",
+    "section": "section",
+    "new": "New",
+    "pending": "Pending"
   },
   "auth": {
     "login": "Login",
