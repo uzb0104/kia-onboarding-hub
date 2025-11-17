@@ -22,6 +22,11 @@ export const Navbar = () => {
           </Link>
 
           <div className="flex items-center space-x-2">
+            <Link to="/dashboard">
+              <Button variant="ghost" className="hover:bg-accent">
+                {t('nav.dashboard')}
+              </Button>
+            </Link>
             <Link to="/employees">
               <Button variant="ghost" className="hover:bg-accent">
                 {t('nav.employees')}

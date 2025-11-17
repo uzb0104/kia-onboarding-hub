@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Главная",
+    "dashboard": "Панель управления",
     "employees": "Сотрудники",
     "departments": "Отделы",
     "login": "Войти",
@@ -30,6 +31,19 @@
         "description": "Управление основными и малыми отделами"
       }
     }
+  },
+  "dashboard": {
+    "title": "Панель управления",
+    "welcome": "Добро пожаловать",
+    "totalEmployees": "Всего сотрудников",
+    "newEmployees": "Новые сотрудники",
+    "onProbation": "На испытательном сроке",
+    "completed": "Завершено",
+    "departments": "Отделы",
+    "recentActivity": "Последняя активность",
+    "section": "отдел",
+    "new": "Новый",
+    "pending": "Ожидание"
   },
   "auth": {
     "login": "Вход в систему",

@@ -8,6 +8,7 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 import "@/lib/i18n";
 import Index from "./pages/Index";
 import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 import Employees from "./pages/Employees";
 import Departments from "./pages/Departments";
 import CreateTestAdmins from "./pages/CreateTestAdmins";
@@ -26,6 +27,7 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/login" element={<Login />} />
+              <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/employees" element={<Employees />} />
               <Route path="/departments" element={<Departments />} />
               <Route path="/create-test-admins" element={<CreateTestAdmins />} />
