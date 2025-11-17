@@ -59,10 +59,16 @@
   },
   "employee": {
     "title": "Employees",
+    "subtitle": "Manage all employees",
     "add": "Add New Employee",
     "edit": "Edit",
     "delete": "Delete",
     "details": "Details",
+    "view": "View",
+    "found": "Found",
+    "employee": "employee",
+    "searchPlaceholder": "Search by name, phone, skills...",
+    "advancedFilters": "Advanced Filters",
     "name": "Name",
     "firstName": "First Name",
     "lastName": "Last Name",
@@ -81,12 +87,16 @@
     "section": "Section",
     "joinDate": "Join Date",
     "probationEnd": "Probation End",
+    "filters": {
+      "all": "All"
+    },
     "statuses": {
       "new": "New",
-      "training": "Training",
-      "progressing": "Progressing",
+      "training": "In Progress",
+      "progressing": "Good",
       "competent": "Competent",
-      "excellent": "Excellent"
+      "excellent": "Excellent",
+      "completed": "Completed"
     }
   },
   "attendance": {

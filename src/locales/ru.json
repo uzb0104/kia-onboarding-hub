@@ -59,10 +59,16 @@
   },
   "employee": {
     "title": "Сотрудники",
+    "subtitle": "Управление всеми сотрудниками",
     "add": "Добавить нового сотрудника",
     "edit": "Редактировать",
     "delete": "Удалить",
     "details": "Подробности",
+    "view": "Просмотр",
+    "found": "Найдено",
+    "employee": "сотрудник",
+    "searchPlaceholder": "Поиск по имени, телефону, навыкам...",
+    "advancedFilters": "Дополнительные фильтры",
     "name": "Имя",
     "firstName": "Имя",
     "lastName": "Фамилия",
@@ -81,12 +87,16 @@
     "section": "Секция",
     "joinDate": "Дата приема",
     "probationEnd": "Конец испытательного срока",
+    "filters": {
+      "all": "Все"
+    },
     "statuses": {
       "new": "Новый",
-      "training": "Обучается",
-      "progressing": "Прогрессирует",
+      "training": "В процессе",
+      "progressing": "Хорошо",
       "competent": "Компетентный",
-      "excellent": "Отличный"
+      "excellent": "Отлично",
+      "completed": "Завершено"
     }
   },
   "attendance": {
