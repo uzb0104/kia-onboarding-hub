@@ -59,10 +59,16 @@
   },
   "employee": {
     "title": "Xodimlar",
+    "subtitle": "Barcha xodimlarni boshqarish",
     "add": "Yangi xodim qo'shish",
     "edit": "Tahrirlash",
     "delete": "O'chirish",
     "details": "Tafsilotlar",
+    "view": "Ko'rish",
+    "found": "Topildi",
+    "employee": "xodim",
+    "searchPlaceholder": "Ism, telefon, ko'nikma bo'yicha qidirish...",
+    "advancedFilters": "Qo'shimcha filtrlar",
     "name": "Ism",
     "firstName": "Ism",
     "lastName": "Familiya",
@@ -81,12 +87,16 @@
     "section": "Seksiya",
     "joinDate": "Qo'shilgan sana",
     "probationEnd": "Sinov muddati tugashi",
+    "filters": {
+      "all": "Hammasi"
+    },
     "statuses": {
       "new": "Yangi",
-      "training": "O'rganmoqda",
-      "progressing": "Rivojlanmoqda",
+      "training": "Jarayonda",
+      "progressing": "Yaxshi",
       "competent": "Malakali",
-      "excellent": "A'lo"
+      "excellent": "A'lo",
+      "completed": "Yakunlangan"
     }
   },
   "attendance": {
