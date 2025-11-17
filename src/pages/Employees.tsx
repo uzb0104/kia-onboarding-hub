@@ -6,12 +6,14 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
+import { AddEmployeeDialog } from '@/components/AddEmployeeDialog';
 import { UserPlus, Search, Filter, Phone, Building2, Calendar, Eye } from 'lucide-react';
 
 const Employees = () => {
   const { t } = useTranslation();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedStatus, setSelectedStatus] = useState('all');
+  const [isAddDialogOpen, setIsAddDialogOpen] = useState(false);
 
   const statusFilters = [
     { key: 'all', label: t('employee.filters.all') },
@@ -90,7 +92,10 @@ const Employees = () => {
             <h1 className="text-4xl font-bold mb-2">{t('employee.title')}</h1>
             <p className="text-muted-foreground">{t('employee.subtitle')}</p>
           </div>
-          <Button className="bg-destructive hover:bg-destructive/90 text-destructive-foreground shadow-elegant">
+          <Button 
+            className="bg-destructive hover:bg-destructive/90 text-destructive-foreground shadow-elegant"
+            onClick={() => setIsAddDialogOpen(true)}
+          >
             <UserPlus className="mr-2 h-5 w-5" />
             {t('employee.add')}
           </Button>
@@ -183,6 +188,11 @@ const Employees = () => {
           ))}
         </div>
       </div>
+
+      <AddEmployeeDialog 
+        open={isAddDialogOpen} 
+        onOpenChange={setIsAddDialogOpen} 
+      />
     </div>
   );
 };
